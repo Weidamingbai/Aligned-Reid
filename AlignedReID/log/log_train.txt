@@ -1,0 +1,21 @@
+==========
+Args:Namespace(arch='resnet50', dataset='market1501', eval_step=20, evaluate=False, gamma=0.1, gpu_devices='0', height=256, htri_only=False, labelsmooth=False, lr=0.0002, margin=0.3, max_epoch=300, num_instances=4, optim='adam', print_freq=10, reranking=False, resume='', root='/home/user/桌面/code/data', save_dir='log', seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=150, test_batch=32, test_distance='global', train_batch=32, unaligned=False, use_cpu=False, weight_decay=0.0005, width=128, workers=4)
+==========
+Currently using GPU 0
+Initializing dataset market1501
+=> Market1501 loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+  ------------------------------
+  total    |  1501 |    32217
+  ------------------------------
+Initializing model: resnet50
+Model size: 25.31320M
+==> Start training
+Epoch: [1][10/93]	Time 0.901 (1.434)	Data 0.038 (0.062)	Loss 10.7801 (10.0156)	CLoss 6.9391 (6.8117)	GLoss 3.5587 (2.8987)	LLoss 0.2824 (0.3052)	
+Epoch: [1][20/93]	Time 0.846 (1.139)	Data 0.032 (0.048)	Loss 11.1914 (10.1046)	CLoss 7.6973 (7.1105)	GLoss 3.0491 (2.6885)	LLoss 0.4450 (0.3056)	

@@ -1,0 +1,15 @@
+dataset_manager.py :加载market1501数据集
+
+使用方式：
+        init_img_dataset(root='/home/user/桌面/code/data',name="market1501")
+参数列表：
+        root        name
+      数据集路径       数据集名称
+
+dataloader.py  :    重写dataset 方法，读取图片
+使用方式：
+    dataset =dataset_manager.init_img_dataset(root='/home/user/桌面/code/data',name="market1501")
+    train_loader = ImageDataset(dataset.train)
+    for batch_id,(img,pid,camid) in enumerate(train_loader):
+        break
+    print(batch_id,img,pid,camid)

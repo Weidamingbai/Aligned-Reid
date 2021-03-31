@@ -1,0 +1,22 @@
+==========
+Args:Namespace(arch='resnet50', dataset='market1501', eval_step=20, evaluate=True, gamma=0.1, gpu_devices='0', height=256, htri_only=False, labelsmooth=False, lr=0.0002, margin=0.3, max_epoch=300, num_instances=4, optim='adam', print_freq=10, reranking=False, resume='', root='/home/user/桌面/code/data', save_dir='log', seed=1, split_id=0, start_epoch=0, start_eval=0, stepsize=150, test_batch=32, test_distance='global', train_batch=32, unaligned=False, use_cpu=False, weight_decay=0.0005, width=128, workers=4)
+==========
+Currently using GPU 0
+Initializing dataset market1501
+=> Market1501 loaded
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  train    |   751 |    12936
+  query    |   750 |     3368
+  gallery  |   751 |    15913
+  ------------------------------
+  total    |  1501 |    32217
+  ------------------------------
+Initializing model: resnet50
+Model size: 25.31320M
+Evaluate only
+Extracted features for query set, obtained 3368-by-2048 matrix
+Extracted features for gallery set, obtained 15913-by-2048 matrix
+==> BatchTime(s)/BatchSize(img): 0.019/32
